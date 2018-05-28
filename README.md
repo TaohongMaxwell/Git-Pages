@@ -1,9 +1,9 @@
-#小白利用hexo和github搭建博客
+# 小白利用hexo和github搭建博客
 
-##前言：
+## 前言：
 纯新手小白，转行自学java途中，想写点东西，记录自己的成长过程。因此，花了一天的时间，游览各个大佬的文章，学着用hexo和github搭建自己的博客。
 
-##一、所需要的环境
+## 一、所需要的环境
 
 1. **安装Node.js()**   
 [http://nodejs.cn/download/](http://nodejs.cn/download/ "官方下载nodejs")  
@@ -17,7 +17,7 @@
 [https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374385852170d9c7adf13c30429b9660d0eb689dd43a000](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374385852170d9c7adf13c30429b9660d0eb689dd43a000 "如何配置ssh")。  
 创建名为userName.github.io的仓库,userName是你申请的用户名。
 
-##二.安装hexo
+## 二.安装hexo
 1. 安装Hexo:  
 	> 右键git bash,输入`npm install -g hexo`  
 
@@ -35,7 +35,7 @@
 `npm WARN deprecated swig@1.4.2: This package is no longer maintained`  
 只是说这个包不再维护了，后面好像并不影响使用，当然你也可以`npm -g install npm`，更新安装。
 
-##三、布置博客
+## 三、布置博客
 1. 熟悉git的简单操作
 	> 选中你的文件夹 `git init` ，创建仓库  
 	> `git add.``git commit -m"标记"`，提交文件修改
